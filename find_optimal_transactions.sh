@@ -1,0 +1,1 @@
+python ./linear_prog_LEM_optimiser.py -i ./data/bids.csv -o /transactions

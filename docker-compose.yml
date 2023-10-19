@@ -1,0 +1,7 @@
+services:
+  matching_bids:
+    build: .
+    volumes:
+      - ./transactions:/transactions
+      - ./data:/data
+    command: bash /find_optimal_transactions.sh
