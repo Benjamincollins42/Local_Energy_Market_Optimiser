@@ -1,7 +1,5 @@
 # Readme
 
-Kraken Flex Data Science Interview Task 2
-
 ## Introduction
 
 In order to maximise the utility of a local energy market (LEM) a linear programming based approach has been developed, taking into account constraints on co2 production and selling and buying prices. This algorithm should find the solution which maximises the volume of power exchanged through the LEM. Additionally, the solution also contains suggested prices for these exchanges based on energy buying and selling price constraints.
@@ -20,7 +18,7 @@ you can run the matching algorithm on the provided data use:
 
 `docker-compose up`
 
-which will produce a .csv file for each time instance in `/transactions`.
+which will produce a .csv file for each time instance in the data, with the file going into `/transactions`.
 
 ## Transactions Output Format
 
